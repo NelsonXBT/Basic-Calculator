@@ -15,6 +15,7 @@ body {
 }
 
 .calculator {
+    max-width: 500px;
     background: #d6d6d6;
     padding: 1rem 1rem 1rem 1rem;
     margin: 2rem 4rem 1rem 4rem;
@@ -68,8 +69,65 @@ button {
 }
 
 
+footer {
+  background-color: #000f0a;
+  color: white;
+  font-size: 0.8rem;
+  padding: 1rem;
+  margin: 5rem 0;
+}
+
+footer a {
+  color: #c6953d;
+}
+footer a:hover {
+  color: #e09201;
+}
+
+
+
 
 /* Responsive: Mobile view */
-@media (min-width: 768px) {
+@media (min-width: 550px) {
+
+h1 {
+    font-size: 2rem;
+}
+.table {
+    display: block;
+    justify-content: center;
+} 
+.calculator {
+    display: inline-block;
     
 }
+
+
+.result {
+    padding: 2rem;
+    
+}
+
+  button {
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+}
+
+#actionButton {
+    padding: 1rem 4.6rem;
+}
+#delButton {
+    padding: 1rem 1.4rem;   
+}
+#cButton {
+    padding: 1rem 2.8rem;
+}
+#dotButton {
+    padding: 1rem 3.34rem;
+}
+
+
+
+}
+
