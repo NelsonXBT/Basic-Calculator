@@ -1,0 +1,75 @@
+/* 
+GLOBAL STYLES 
+*/
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+    overflow-x: hidden;
+    max-width: 1500px;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    background: #d6d6d6;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 2rem 4rem 1rem 4rem;
+    border:  #d6d6d6;
+    border-radius: 1rem;
+}
+
+header {
+    margin: 5rem 0 0 0;
+}
+
+.result {
+    background-color: #f3f1f1;
+    border: 1rem solid #f3f1f1;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #ecebeb;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    border: solid #e7e4e4 ;
+    border-radius: 0.5rem ;
+    
+}
+
+#actionButton {
+    padding: 0.5rem 2.3rem;
+   
+    
+}
+#delButton {
+    padding: 0.5rem 0.7rem;
+    
+}
+#cButton {
+    padding: 0.5rem 1.4rem;
+}
+#dotButton {
+    padding: 0.5rem 1.67rem;
+}
+
+
+
+/* Responsive: Mobile view */
+@media (min-width: 768px) {
+    
+}
