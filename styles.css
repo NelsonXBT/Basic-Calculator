@@ -18,7 +18,7 @@ body {
     max-width: 500px;
     background: #d6d6d6;
     padding: 1rem 1rem 1rem 1rem;
-    margin: 2rem 4rem 1rem 4rem;
+    margin: 2rem 1.8rem 1rem 1.8rem;
     border:  #d6d6d6;
     border-radius: 1rem;
 }
@@ -28,13 +28,16 @@ header {
 }
 
 .result {
+    font-size: 2rem;
     background-color: #f3f1f1;
     border: 1rem solid #f3f1f1;
     border-radius: 0.7rem;
     padding: 1rem;
     margin-bottom: 1rem;
-    
-    
+}
+/* ======= Result expression ======= */
+#expression {
+    font-size: 0.5rem;
 }
 
 .table {
