@@ -17,13 +17,12 @@ html, body {
     text-align: center;
     overflow-x: hidden;
     background-color: #f0f0f0;
+    
+}
+.content {
     max-width: 1000px;
     margin: 0 auto;
 }
-/* .content {
-    max-width: 1000px;
-    margin: 0 auto;
-} */
 
 .calculator {
     
@@ -89,7 +88,7 @@ button {
 footer {
   background-color: #000f0a;
   color: white;
-  position: fixed;
+  position: flex;
   font-size: 0.8rem;
   left: 0;
   width: 100%; 
