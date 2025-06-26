@@ -24,6 +24,7 @@ html, body {
 }
 
 .calculator {
+    
     max-width: 500px;
     background: #d6d6d6;
     padding: 1rem 1rem 1rem 1rem;
@@ -43,7 +44,9 @@ header {
     border-radius: 0.7rem;
     padding: 1rem;
     margin-bottom: 1rem;
+
 }
+
 /* ======= Result expression ======= */
 #expression {
     font-size: 0.5rem;
