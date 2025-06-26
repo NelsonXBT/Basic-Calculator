@@ -73,11 +73,12 @@ button {
 
 
 footer {
+    display: block;
   background-color: #000f0a;
   color: white;
   font-size: 0.8rem;
   padding: 1rem;
-  margin: 5rem auto;
+  margin: 5rem 0 0 0;
 }
 
 footer a {
@@ -90,7 +91,7 @@ footer a:hover {
 
 
 
-/* Responsive: Mobile view */
+/* Responsive: Desktop view */
 @media (min-width: 550px) {
 
 h1 {
@@ -102,12 +103,16 @@ h1 {
 } 
 .calculator {
     display: inline-block;
+    padding-left: 2rem;
+    padding-right: 6.5rem;
     
 }
 
 
 .result {
     padding: 2rem;
+    width: 29.5rem;
+    
     
 }
 
