@@ -2,7 +2,14 @@
 GLOBAL STYLES 
 */
 
-body {
+html, body {
+    height: 100%;              /* Ensure html and body fill the screen */
+    margin: 0;
+    padding: 0;
+}
+
+
+ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10px;
     margin: 0 auto;
@@ -73,7 +80,7 @@ button {
 
 
 footer {
-    display: block;
+  display: block;
   background-color: #000f0a;
   color: white;
   font-size: 0.8rem;
